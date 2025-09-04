@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+.spacer {
+  flex: 1 1 auto;
+}
+
+.content {
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-height: calc(100vh - 64px);
+}
+
+.mat-toolbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
